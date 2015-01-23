@@ -1,0 +1,11 @@
+# Site settings
+title: English Over Coffee
+email: sheldon.j.johnson@outlook.com
+description: "Casual, conversational English, over coffee."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://drzel.github.io" # the base hostname & protocol for your site
+twitter_username: EnglishOverCoffee
+github_username:  drzel
+
+# Build settings
+markdown: kramdown
