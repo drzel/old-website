@@ -3,7 +3,7 @@ layout: post
 title:  "Yosuke Kuroki"
 ---
 #Vocabulary
-amalgamation
+amalgamation\\
 entity
 
 #Phrases
