@@ -2,9 +2,14 @@
 layout: post
 title:  "Yosuke Kuroki"
 ---
-#Vocabulary
-amalgamation\\
+
+Vocabulary
+==========
+amalgamation
+
 entity
 
-#Phrases
+
+Phrases
+=======
 The amalgamation of four LPG companies formed a much larger entity.
