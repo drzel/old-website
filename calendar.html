@@ -1,0 +1,40 @@
+---
+layout: page
+---	
+
+<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+<script src='fullcalendar/lib/jquery.min.js'></script>
+<script src='fullcalendar/lib/moment.min.js'></script>
+<script src='fullcalendar/fullcalendar.js'></script>
+<script type='text/javascript' src='fullcalendar/gcal.js'></script>
+
+<script type='text/javascript'>
+	$(document).ready(function() {
+	    $('#calendar').fullCalendar({
+
+	    	defaultView: 'agendaWeek',
+	    	weekends: false,
+	    	minTime: "10:00:00",
+	    	maxTime: "22:00:00",
+	    	allDaySlot: false,
+	    	contentHeight: "auto",
+	    	eventColor: "hsl(220,20%,30%)",
+	    	
+	    	googleCalendarApiKey: 'AIzaSyBdqGj_F2h02H5MV6PqjfuTzpee2KEJYQM',
+        	
+        	eventSources: [
+	            {
+	                googleCalendarId: '2t9c26ch825qeeukm0guu74c44@group.calendar.google.com',
+	                className: 'eoc-calendar',
+	            },
+	            {
+	                googleCalendarId: '04ubl8ju5lr7osddqp49pveqd3glfioa@import.calendar.google.com',
+	                className: 'gaba-calendar',
+	                color: 'hsl(120,20%,30%)',
+	            }
+        	]
+        });
+	});
+</script>
+
+<div id='calendar'></div>
