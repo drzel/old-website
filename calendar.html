@@ -12,6 +12,10 @@ layout: page
 	$(document).ready(function() {
 	    $('#calendar').fullCalendar({
 
+	    	eventClick: function(){
+	    		return false;
+	    	},
+
 	    	defaultView: 'agendaWeek',
 	    	weekends: false,
 	    	minTime: "10:00:00",
