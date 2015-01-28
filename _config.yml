@@ -5,8 +5,6 @@ description: "Casual, conversational English, over coffee."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://drzel.github.io" # the base hostname & protocol for your site
 permalink: none
-twitter_username: EnglishOverCoffee
-github_username:  drzel
 
 # Build settings
 markdown: kramdown
