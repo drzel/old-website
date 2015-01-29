@@ -50,8 +50,10 @@ $on-laptop:         800px;
 
 // My CSS stuff
 .profile-pic-container {
+	float: left;
     border-radius: 10px;
     overflow: hidden;
     width: 256px;
     max-width: 50%;
+    margin-right: 10px;	
 }
