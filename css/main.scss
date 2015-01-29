@@ -52,5 +52,6 @@ $on-laptop:         800px;
 .profile-pic-container {
     border-radius: 10px;
     overflow: hidden;
-    max-width: 256px;
+    width: 256px;
+    max-width: 50%;
 }
