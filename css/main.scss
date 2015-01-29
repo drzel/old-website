@@ -47,3 +47,10 @@ $on-laptop:         800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// My CSS stuff
+.profile-pic-container {
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 256px;
+}
